@@ -8,4 +8,8 @@ export class AppService {
     await this.producerService.addToEmailQueue(123);
     return 'Hello World!';
   }
+  async getHello2() {
+    await this.producerService.addToEmailQueue2(444);
+    return 'Hello World!';
+  }
 }
